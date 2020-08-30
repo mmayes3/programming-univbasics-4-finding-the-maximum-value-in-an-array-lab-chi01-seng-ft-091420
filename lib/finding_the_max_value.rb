@@ -5,6 +5,7 @@ def find_max_value(array)
     max_value = array[count] if array[count] > max_value
     count += 1
   end
+  puts max_value
 end
 
 find_max_value([1,2,1,3,4,3,5,4,3,2,1])
